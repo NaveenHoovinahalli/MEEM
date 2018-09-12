@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@+id/parentView"
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/meemBlack95"
+                android:orientation="vertical">
+
+    <com.meem.ui.utils.MeemTextView
+        android:id="@+id/textOne"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:padding="5dp"
+        android:text="@string/firmware_update_required"
+        android:textColor="@color/meemGray4"/>
+
+    <com.meem.ui.utils.MeemTextView
+        android:id="@+id/textTwo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textOne"
+        android:layout_marginTop="10dp"
+        android:padding="5dp"
+        android:text="@string/firmware_warning"
+        android:textColor="@color/meemGray4"/>
+
+    <com.meem.ui.utils.MeemTextView
+        android:id="@+id/updateFirmware"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textTwo"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/rounded_rect_green"
+        android:gravity="center"
+        android:padding="5dp"
+        android:text="@string/firmware_update"
+        android:textAppearance="@android:style/TextAppearance.Medium"
+        android:textColor="@color/gray"/>
+
+
+    <include
+        android:id="@+id/lProbressBar"
+        style="@style/progressBarwithbutton"
+        layout="@layout/progressbarwithmessage"
+        android:visibility="gone"/>
+</RelativeLayout>

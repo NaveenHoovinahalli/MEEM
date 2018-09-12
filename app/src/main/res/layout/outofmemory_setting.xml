@@ -1,0 +1,371 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical">
+
+
+    <View style="@style/line"/>
+
+    <com.meem.ui.utils.MeemTextView
+        android:id="@+id/requiredSize"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:background="@color/meemBlack90"
+        android:padding="5dp"
+        android:text="Required Size:8.22GB"
+        android:textColor="@color/gray"
+        android:textStyle="bold"/>
+
+    <com.meem.ui.utils.MeemTextView
+        android:id="@+id/availableSize"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:background="@color/meemBlack90"
+        android:padding="5dp"
+        android:text="Available Size:4.22GB"
+        android:textColor="@color/gray"
+        android:textStyle="bold"/>
+
+
+    <View style="@style/line"/>
+
+    <View
+        style="@style/line"
+        android:layout_marginTop="10dp"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/meemBlack87"
+        android:orientation="horizontal"
+        android:padding="10dp">
+
+
+        <Switch
+            android:id="@+id/contactsSwitch"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:checked="true"
+            android:gravity="center"
+            android:textColor="@color/gray"/>
+
+        <com.meem.ui.utils.MeemTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/contactsSwitch"
+            android:layout_alignBottom="@+id/contactsSwitch"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:gravity="center"
+            android:text="@string/contacts"
+            android:textColor="@color/gray"/>
+
+        <com.meem.ui.utils.MeemTextView
+            android:id="@+id/contactsSize"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10dp"
+            android:layout_toLeftOf="@+id/contactsSwitch"
+            android:layout_toStartOf="@+id/contactsSwitch"
+            android:gravity="center"
+            android:text="--"
+            android:textColor="@color/gray"/>
+
+    </RelativeLayout>
+
+    <View style="@style/line"/>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/meemBlack87"
+        android:orientation="horizontal"
+        android:padding="10dp">
+
+
+        <Switch
+            android:id="@+id/calenderSwitch"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:checked="true"
+            android:gravity="center"
+            android:textColor="@color/gray"/>
+
+        <com.meem.ui.utils.MeemTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/calenderSwitch"
+            android:layout_alignBottom="@+id/calenderSwitch"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:gravity="center"
+            android:text="@string/calendar"
+            android:textColor="@color/gray"/>
+
+        <com.meem.ui.utils.MeemTextView
+            android:id="@+id/calenderSize"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10dp"
+            android:layout_toLeftOf="@+id/calenderSwitch"
+            android:layout_toStartOf="@+id/calenderSwitch"
+            android:gravity="center"
+            android:text="--"
+            android:textColor="@color/gray"/>
+
+    </RelativeLayout>
+
+
+    <View style="@style/line"/>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/meemBlack87"
+        android:orientation="horizontal"
+        android:padding="10dp">
+
+
+        <Switch
+            android:id="@+id/messagesSwitch"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:checked="true"
+            android:gravity="center"
+            android:textColor="@color/gray"/>
+
+        <com.meem.ui.utils.MeemTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/messagesSwitch"
+            android:layout_alignBottom="@+id/messagesSwitch"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:gravity="center"
+            android:text="@string/messages"
+            android:textColor="@color/gray"/>
+
+        <com.meem.ui.utils.MeemTextView
+            android:id="@+id/messagesSize"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10dp"
+            android:layout_toLeftOf="@+id/messagesSwitch"
+            android:layout_toStartOf="@+id/messagesSwitch"
+            android:gravity="center"
+            android:text="--"
+            android:textColor="@color/gray"/>
+
+    </RelativeLayout>
+
+
+    <View style="@style/line"/>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/meemBlack87"
+        android:orientation="horizontal"
+        android:padding="10dp">
+
+
+        <Switch
+            android:id="@+id/photosSwitch"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:checked="true"
+            android:gravity="center"
+            android:textColor="@color/gray"/>
+
+        <com.meem.ui.utils.MeemTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/photosSwitch"
+            android:layout_alignBottom="@+id/photosSwitch"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:gravity="center"
+            android:text="@string/photos"
+            android:textColor="@color/gray"/>
+
+        <com.meem.ui.utils.MeemTextView
+            android:id="@+id/photosSize"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10dp"
+            android:layout_toLeftOf="@+id/photosSwitch"
+            android:layout_toStartOf="@+id/photosSwitch"
+            android:gravity="center"
+            android:text="--"
+            android:textColor="@color/gray"/>
+
+    </RelativeLayout>
+
+
+    <View style="@style/line"/>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/meemBlack87"
+        android:orientation="horizontal"
+        android:padding="10dp">
+
+
+        <Switch
+            android:id="@+id/videosSwitch"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:checked="true"
+            android:gravity="center"
+            android:textColor="@color/gray"/>
+
+        <com.meem.ui.utils.MeemTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/videosSwitch"
+            android:layout_alignBottom="@+id/videosSwitch"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:gravity="center"
+            android:text="@string/videos"
+            android:textColor="@color/gray"/>
+
+        <com.meem.ui.utils.MeemTextView
+            android:id="@+id/videosSize"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10dp"
+            android:layout_toLeftOf="@+id/videosSwitch"
+            android:layout_toStartOf="@+id/videosSwitch"
+            android:gravity="center"
+            android:text="--"
+            android:textColor="@color/gray"/>
+
+    </RelativeLayout>
+
+    <View style="@style/line"/>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/meemBlack87"
+        android:orientation="horizontal"
+        android:padding="10dp">
+
+
+        <Switch
+            android:id="@+id/musicSwitch"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:checked="true"
+            android:gravity="center"
+            android:textColor="@color/gray"/>
+
+        <com.meem.ui.utils.MeemTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/musicSwitch"
+            android:layout_alignBottom="@+id/musicSwitch"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:gravity="center"
+            android:text="@string/music"
+            android:textColor="@color/gray"/>
+
+        <com.meem.ui.utils.MeemTextView
+            android:id="@+id/musicSize"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10dp"
+            android:layout_toLeftOf="@+id/musicSwitch"
+            android:layout_toStartOf="@+id/musicSwitch"
+            android:gravity="center"
+            android:text="--"
+            android:textColor="@color/gray"/>
+
+    </RelativeLayout>
+
+
+    <View style="@style/line"/>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/meemBlack87"
+        android:orientation="horizontal"
+        android:padding="10dp">
+
+
+        <Switch
+            android:id="@+id/documentsSwitch"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:checked="true"
+            android:gravity="center"
+            android:textColor="@color/gray"/>
+
+        <com.meem.ui.utils.MeemTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/documentsSwitch"
+            android:layout_alignBottom="@+id/documentsSwitch"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:gravity="center"
+            android:text="@string/documents"
+            android:textColor="@color/gray"/>
+
+        <com.meem.ui.utils.MeemTextView
+            android:id="@+id/documentsSize"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10dp"
+            android:layout_toLeftOf="@+id/documentsSwitch"
+            android:layout_toStartOf="@+id/documentsSwitch"
+            android:gravity="center"
+            android:text="--"
+            android:textColor="@color/gray"/>
+
+    </RelativeLayout>
+
+    <View style="@style/line"/>
+
+</LinearLayout>

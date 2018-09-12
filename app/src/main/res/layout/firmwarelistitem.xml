@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/meemBlack87"
+                android:orientation="horizontal"
+                android:padding="5dip">
+
+
+    <com.meem.ui.utils.MeemTextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Version 12.0.0"
+        android:textColor="@color/meemWhite"
+        android:textSize="15dip"
+        android:textStyle="bold"
+        android:typeface="sans"/>
+
+    <com.meem.ui.utils.MeemTextView
+        android:id="@+id/desc"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/title"
+        android:layout_marginTop="1dip"
+        android:text="Bug Fixes and functionality updates"
+        android:textColor="@color/meemGray4"/>
+
+
+</RelativeLayout>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@+id/parentView"
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/meemBlack">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/meemBlack87"
+            android:orientation="horizontal"
+            android:padding="5dp">
+
+            <com.meem.ui.utils.MeemTextView
+                android:id="@+id/name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="2dp"
+                android:text="Name"
+                android:textColor="@color/meemWhite"/>
+
+            <com.meem.ui.utils.MeemTextView
+                android:id="@+id/date"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="2dp"
+                android:gravity="right"
+                android:textColor="@color/meemWhite"/>
+
+        </LinearLayout>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/meemBlack87"
+            android:padding="5dp">
+
+            <com.meem.ui.utils.MeemTextView
+                android:id="@+id/message"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="@color/meemGray4"/>
+
+        </ScrollView>
+
+        <View style="@style/linewithmargin"/>
+
+
+    </LinearLayout>
+
+
+    <include
+        android:id="@+id/lProbressBar"
+        style="@style/progressBarwithbutton"
+        layout="@layout/progressbarwithmessage"
+        android:visibility="gone"/>
+
+</RelativeLayout>

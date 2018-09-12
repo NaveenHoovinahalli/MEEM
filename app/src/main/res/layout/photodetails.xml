@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@+id/parentView"
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+    <com.meem.ui.utils.TouchImageView
+        android:id="@+id/imageview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/testimage"/>
+
+
+    <include
+        android:id="@+id/lProbressBar"
+        style="@style/progressBarwithbutton"
+        layout="@layout/progressbarwithmessage"
+        android:visibility="gone"/>
+
+</RelativeLayout>

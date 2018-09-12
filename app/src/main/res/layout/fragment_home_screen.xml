@@ -1,0 +1,27 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:tools="http://schemas.android.com/tools"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             tools:context="com.meem.ui.HomeFragment">
+
+    <!-- The middle segment is the first layer in the home fragment in Z order
+    So, it must be declared first in XML layout -->
+    <FrameLayout
+        android:id="@+id/home_middlesegment_framelayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/meemBlack"/>
+
+    <FrameLayout
+        android:id="@+id/home_phonesegment_framelayout"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:background="@drawable/m_pattern_tile_bg"/>
+
+    <FrameLayout
+        android:visibility="gone"
+        android:id="@+id/home_meemsegment_framelayout"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:background="@drawable/m_pattern_tile_bg"/>
+</FrameLayout>

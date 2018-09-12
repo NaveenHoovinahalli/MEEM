@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:id="@+id/scroller_for_justified_text_dialog"
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/meemBlack87"
+            android:fillViewport="false"
+
+            android:scrollbars="vertical">
+
+    <com.meem.ui.utils.JustifiedTextView
+        android:id="@+id/text_for_justified_text_dialog"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="fill"
+        android:layout_marginBottom="12dp"
+        android:layout_marginTop="12dp"
+        android:paddingBottom="20dp"
+        android:paddingLeft="12dp"
+        android:paddingRight="12dp"
+        android:paddingTop="20dp"
+        android:scrollHorizontally="false"/>
+
+</ScrollView>

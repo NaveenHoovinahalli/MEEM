@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@+id/generic_vault_relativelayout"
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:custom="http://schemas.android.com/apk/res-auto"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/rounded_rect_green">
+
+    <RelativeLayout
+        android:id="@+id/vault_header_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/vault_header_phone_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:src="@drawable/img_phone_icon"/>
+
+        <com.meem.ui.utils.MeemHeaderTextView
+            android:id="@+id/vault_header_name_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/vault_header_phone_icon"
+            android:text="Phone name"
+            android:textColor="@color/black"/>
+
+        <com.meem.ui.utils.MeemHeaderTextView
+            android:id="@+id/vault_header_timestamp_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/vault_header_name_text"
+            android:layout_toRightOf="@id/vault_header_phone_icon"
+            android:text="10hrs ago"
+            android:textColor="@color/black"/>
+
+        <ImageView
+            android:visibility="gone"
+            android:padding="5dp"
+            android:id="@+id/wifiIcon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:src="@drawable/wifii_black"/>
+
+        <!--android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"-->
+        <View
+            android:id="@+id/vault_header_devider"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_alignParentBottom="true"
+            android:background="@color/black"/>
+
+    </RelativeLayout>
+
+    <FrameLayout
+        android:id="@+id/vault_content_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/vault_header_layout"
+        android:background="@color/meemBlack"
+        android:orientation="vertical"></FrameLayout>
+
+    <RelativeLayout
+        android:id="@+id/vault_footer_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/vault_content_layout">
+
+        <com.meem.ui.utils.MeemFooterTextView
+            android:id="@+id/vault_footer_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="Footer Text"
+            android:textColor="@color/black"
+            android:visibility="gone"/> <!-- For the time being. -->
+
+        <com.meem.ui.utils.AnimDotsView
+            android:id="@+id/vault_footer_dots"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:visibility="gone"
+            custom:adv___dotRadius="4dp"/>
+    </RelativeLayout>
+</RelativeLayout>

@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/meemGray2"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/home"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:orientation="horizontal">
+
+        <com.meem.ui.utils.MeemTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/home"
+            android:textColor="@color/meemWhite"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:layout_gravity="right"
+            android:src="@drawable/btn_details_arrow"/>
+
+    </RelativeLayout>
+
+    <View style="@style/linewithmargin"/>
+
+    <RelativeLayout
+        android:id="@+id/details"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:clickable="false"
+        android:orientation="horizontal">
+
+        <com.meem.ui.utils.MeemTextView
+            android:id="@+id/detailsText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/summary"
+            android:textColor="@color/meemBlack50"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:layout_gravity="right"
+            android:src="@drawable/btn_details_arrow"/>
+
+    </RelativeLayout>
+
+    <View style="@style/linewithmargin"/>
+
+    <RelativeLayout
+
+        android:id="@+id/settings"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:orientation="horizontal">
+
+        <com.meem.ui.utils.MeemTextView
+            android:id="@+id/settingText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/settings"
+            android:textColor="@color/meemBlack50"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:layout_gravity="right"
+            android:src="@drawable/btn_details_arrow"/>
+
+    </RelativeLayout>
+
+    <View style="@style/linewithmargin"/>
+
+
+    <RelativeLayout
+        android:visibility="gone"
+        android:id="@+id/meemcablemode"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:orientation="horizontal">
+
+        <com.meem.ui.utils.MeemTextView
+            android:id="@+id/meemcablemodeTV"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Modes of MEEM"
+            android:textColor="@color/meemBlack50"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:layout_gravity="right"
+            android:src="@drawable/btn_details_arrow"/>
+
+    </RelativeLayout>
+
+    <View style="@style/linewithmargin"/>
+
+    <RelativeLayout
+        android:visibility="gone"
+        android:layout_margin="10dp"
+        android:id="@+id/nwDisconnect"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <com.meem.ui.utils.MeemTextView
+            android:id="@+id/nwDisconnectTV"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Disconnect Network"
+            android:textColor="@color/meemBlack50"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:layout_gravity="right"
+            android:src="@drawable/btn_details_arrow"/>
+
+    </RelativeLayout>
+
+    <View
+        android:visibility="gone"
+        android:id="@+id/viewId"
+        style="@style/linewithmargin"/>
+    <RelativeLayout
+        android:id="@+id/help"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:orientation="horizontal">
+
+        <com.meem.ui.utils.MeemTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/help"
+            android:textColor="@color/meemWhite"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:layout_gravity="right"
+            android:src="@drawable/btn_details_arrow"/>
+
+    </RelativeLayout>
+
+    <View style="@style/linewithmargin"/>
+
+
+
+
+    <RelativeLayout
+        android:id="@+id/about"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:orientation="horizontal">
+
+        <com.meem.ui.utils.MeemTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/about_us"
+            android:textColor="@color/meemWhite"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:layout_gravity="right"
+            android:src="@drawable/btn_details_arrow"/>
+
+    </RelativeLayout>
+
+    <View style="@style/linewithmargin"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:padding="5dp"
+            android:textSize="12sp"
+            android:id="@+id/copywrit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:gravity="center"
+            android:layout_centerInParent="true"
+            android:text="asd"/>
+
+    </RelativeLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,50 @@
+<LinearLayout android:id="@+id/llcontactssetting"
+              xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:background="@color/meemBlack83"
+              android:orientation="horizontal"
+              android:padding="5dp"
+              android:visibility="gone">
+
+    <info.hoang8f.android.segmented.SegmentedGroup android:id="@+id/radioGroup"
+                                                   xmlns:segmentedgroup="http://schemas.android.com/apk/res-auto"
+                                                   android:layout_width="match_parent"
+                                                   android:layout_height="wrap_content"
+                                                   android:layout_gravity="center"
+                                                   android:orientation="horizontal"
+                                                   segmentedgroup:sc_border_width="2dp"
+                                                   segmentedgroup:sc_corner_radius="10dp">
+        >
+
+        <RadioButton
+            android:id="@+id/radioOff"
+            style="@style/RadioButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:checked="false"
+            android:maxLines="1"
+            android:text="@string/off"/>
+
+        <RadioButton
+            android:id="@+id/radioMirror"
+            style="@style/RadioButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:checked="false"
+            android:maxLines="1"
+            android:text="@string/sync"/>
+
+        <RadioButton
+            android:id="@+id/radioMirrorPlus"
+            style="@style/RadioButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:checked="false"
+            android:maxLines="1"
+            android:text="@string/archive"/>
+    </info.hoang8f.android.segmented.SegmentedGroup>
+</LinearLayout>

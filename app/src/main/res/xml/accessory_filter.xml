@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <usb-accessory
+        description="Data Sync and backup"
+        manufacturer="SILVAN"
+        modelName="MEEM"
+        serialNumber="123456789"
+        uri="www.meem.co"
+        version="1.0"/>
+    <usb-accessory
+        description="Data Sync and backup"
+        manufacturer="MEEM"
+        modelName="MEEM"
+        serialNumber="123456789"
+        uri="www.meem.co"
+        version="1.0"/>
+
+    <!-- Added 08Dec2017, see comment in AccessoryFragment.java, dated same -->
+    <usb-accessory
+        description="Data Sync and backup"
+        manufacturer="MEEM"
+        modelName="MEEM"
+        serialNumber="123456789"
+        uri="www.meem.co"
+        version="1.5"/>
+</resources>

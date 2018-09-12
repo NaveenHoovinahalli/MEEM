@@ -1,0 +1,219 @@
+<resources>
+    <string name="app_name">MEEM</string>
+    <string name="acra_crach_notice">MEEM has encountered a problem and needs to close.</string>
+    <string name="welcome">Bienvenue</string>
+<string name="welcome_note">L\'utilisation de l\'application MEEM ainsi que du firmware fourni avec le produit MEEM est régie par les conditions du Contrat de Licence d\'Utilisateur Final de MEEM ainsi que dans certain,s cas le Contrat de Licence Firmware. Votre utilisation de l\'application et du produit MEEM implique votre accord avec les conditions de ces contrats. Les conditions actuelles de ces contrats sont disponibles depuis le menu "Paramètres / Mentions juridiques" de l\'application MEEM ou sur le site web de MEEM à l\'adresse www.meemmemory.com
+</string>
+
+    <string name="accept">Accepter</string>
+    <string name="Countdown_begins">Début du compte à rebours</string>
+    <string name="name">Nom</string>
+    <string name="countdown">Compte à rebours</string>
+    <string name="stop">Stop</string>
+
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <string name="dummy_imgview_content_desc">ImageView</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+
+    <!-- MEEM functionality stuff -->
+    <string name="prompt_for_cable_connect_part1">"Connect"</string>
+    <string name="prompt_for_cable_connect_part2">"cable"</string>
+    <string name="prompt_cable_connected">"Connected."</string>
+
+    <string name="autobackup_prompt">Une sauvegarde automatique sera exécutée à la fin du compte à rebours.\n\nSi vous souhaitez restaurer des éléments d\'une ancienne sauvegarde, touchez simplement le bouton Stop</string>
+
+    <!-- MENU -->
+    <string name="home">Accueil</string>
+    <string name="summary">Your Data</string>
+    <string name="settings">Paramètres</string>
+    <string name="help">Aide</string>
+
+    <string name="sync">Sync.</string>
+    <string name="archive">Archiver
+</string>
+    <string name="just_now">À l\'instant</string>
+    <string name="change_name">Changer de nom</string>
+
+
+    <string name="select">Sélectionner</string>
+    <string name="edit">Modifier</string>
+    <!--<string name="save">Save</string>-->
+    <string name="cancel">Annuler</string>
+    <string name="restore">Restore</string>
+    <string name="share">Share</string>
+    <string name="delete">Supprimer</string>
+    <string name="abort">Abort</string>
+    <string name="upgrade">Amélioration</string>
+    <string name="done">Terminé</string>
+
+
+    <!-- About -->
+    <string name="about">Informations</string>
+    <string name="about_us">À propos de nous</string>
+    <string name="meemwebsite">Site web MEEM</string>
+    <string name="legal">Mentions juridiques</string>
+    <string name="about_meem">"MEEM est un câble de recharge qui sauvegarde automatiquement les données personnelles de votre téléphone dans le câble à chaque fois que vous chargez votre téléphone portable. Meem fonctionne exclusivement avec l\'application gratuite MEEM."</string>
+    <string name="eula">CLUF</string>
+    <string name="firmware_licence">Licence firmware</string>
+    <string name="warranty">Garantie</string>
+
+    <!-- Setting -->
+    <string name="congratulation">Félicitations</string>
+    <string name="on_buying_your_meem">pour l\'achat de votre MEEM!</string>
+    <string name="cable_setup">Configuration du câble</string>
+    <string name="pin_change">Changement de PIN</string>
+    <string name="cableinfo">Cable Info</string>
+    <string name="capacity">Capacité</string>
+    <string name="available">Disponible</string>
+    <string name="firmware">Firmware</string>
+    <string name="firmware_update">Mise à jour firmware</string>
+    <string name="cable_authentication">Authentification du câble</string>
+    <string name="model">Modèle</string>
+    <string name="cablepin">Cable PIN</string>
+    <string name="reset_cable">Réinitialisation du câble</string>
+    <string name="reset">Réinitialiser</string>
+    <string name="delete_backup_data">Supprimer des données de sauvegarde</string>
+    <string name="appsounds">Son</string>
+    <string name="confirmnewpin">Confirmer PIN</string>
+    <string name="enterpin">Saisir PIN</string>
+    <string name="pin_setup_info">Créez un code PIN de 4 chiffres pour protéger votre MEEM et les données qui y sont stockées. Gardez votre PIN secret et en sécurité.</string>
+    <string name="pin_auth_info">IMPORTANT : Après 10 tentatives de code PIN erronées, le câble MEEM sera automatiquement bloqué et deviendra inaccessible. Si jamais cela vous arrive, contactez hello@meemmemory.com.</string>
+    <string name="new_firmware_update_is_ready_for_meem">Une mise à jour de firmware est disponible pour MEEM</string>
+
+    <!-- Category -->
+    <string name="contacts">Contacts</string>
+    <string name="calendar">Calendrier</string>
+    <string name="photos">Photos</string>
+    <string name="videos">Vidéos</string>
+    <string name="music">Music</string>
+    <string name="documents">Documents</string>
+    <string name="messages">Messages</string>
+    <string name="total_size">Taille totale</string>
+    <string name="off">Désactivé</string>
+    <string name="ok">OK</string>
+
+    <!--Message-->
+    <string name="please_select_any_items">Veuillez sélectionner des éléments</string>
+    <string name="add_to_calender">Ajouter au calendrier</string>
+    <string name="add_to_address_book">Ajouter au carnet d\'adresses</string>
+    <string name="add_to_library">Ajouter à la librairie</string>
+    <string name="are_u_sure_u_want_to_delete_item">Voulez-vous vraiment\n supprimer cet élément ?</string>
+    <string name="saving">Sauvegarde...</string>
+    <string name="deleting">Suppression...</string>
+    <string name="upgrading">Mise à jour...</string>
+    <string name="confirming_data">Confirmation des données....</string>
+    <string name="finalizing_backup">Finalisation de la sauvegarde...</string>
+    <string name="finalizing_copy">Finalisation de la copie...</string>
+    <string name="finalizing_restore">Finalisation de la restauration...</string>
+    <string name="aborting_backup">Annulation de la sauvegarde...</string>
+    <string name="aborting_copy">Annulation de la copie...</string>
+    <string name="aborting_restore">Annulation de la restauration...</string>
+    <string name="transferring_date">Transfert des données</string>
+    <string name="success">Réussi</string>
+    <string name="failed">Échoué</string>
+    <string name="firmware_update_sucess">La mise à jour firmware a réussi</string>
+    <string name="firmware_update_failed">La mise à jour firmware a échoué</string>
+    <string name="no_longer_access">Vous ne pouvez plus accéder aux données sur ce MEEM\n Veuillez contacter votre vendeur ou bien notre site internet.</string>
+    <string name="please_wait_initilizing_cable">Initialisation du câble, veuillez patienter...</string>
+    <string name="no_enough_memory">Il n\'y a pas assez d\'espace sur le téléphone</string>
+    <string name="operation_takes_longtime_wish_to_continue">Cette opération peut prendre beaucoup de temps.\n Voulez-vous continuer ?</string>
+    <string name="firmware_update_required">Une mise à jour firmware est nécessaire pour que votre câble MEEM puisse vous fournir une expérience utilisateur plus exhaustive. Cette mise à jour ne prendra que quelques instants. Une fois la mise à jour terminée, le câble MEEM se reconnectera automatiquement.</string>
+    <string name="connect_meem_cable">Branchez le câble MEEM</string>
+    <string name="meem_connected">MEEM connecté</string>
+    <string name="meem_cable_locked">Câble MEEM bloqué</string>
+    <string name="firmware_warning">Important: Make sure there\'s no disconnection or power interruption during firmware update</string>
+    <string name="there_is_no_enough_memory_in_the_device_for_backup_operation">Il n\'y a pas assez d\'espace sur MEEM pour sauvegarder.</string>
+    <string name="there_is_no_enough_memory_in_the_device_for_copy_operation">Il n\'y a pas assez d\'espace sur l\'appareil pour copier.</string>
+    <string name="there_is_no_enough_memory_in_the_device_for_restore_operation">Il n\'y a pas assez d\'espace sur l\'appareil pour restaurer.</string>
+    <string name="no_disconnection_or_power_interruption_during_firmware_update">Important : assurez-vous que l\'appareil ne soit pas déconnecté ni éteint durant la mise à jour du firmware</string>
+    <string name="no_updates_available">Aucune mise à jour disponible.</string>
+    <string name="for_information_on_backup_options_other_than_automatic_press_stop_and_go_to_the_help_section">Pour consulter les informations sur les options de sauvegarde manuelles, appuyez sur Stop et rendez-vous dans la section d\'aide</string>
+    <string name="reset_warning">"Cela effacera toutes les données de sauvegarde de votre câble. Voulez-vous vraiment continuer ?"</string>
+
+
+    <string name="hr">h</string>
+    <string name="hrs">h</string>
+    <string name="min">min</string>
+    <string name="mins">min</string>
+    <string name="sec">sec</string>
+    <string name="secs">secs</string>
+    <string name="day">jour</string>
+    <string name="days">jours</string>
+    <string name="ago">il y a</string>
+    <string name="left">restant</string>
+
+    <!-- Help -->
+    <string name="help0">Qu\'est-ce que MEEM ?</string>
+    <string name="help1">Mes données personnelles sur MEEM</string>
+    <string name="help2">Comprendre l\'application</string>
+    <string name="help3">"Mon MEEM fait-il bien une sauvegarde ?"</string>
+    <string name="help4">Sauvegarde automatique</string>
+    <string name="help5">Sauvegarde et restauration manuelle de l\'appareil</string>
+    <string name="help6">Changer les paramètres de sauvegarde automatique</string>
+    <string name="help7">Appareils multiples</string>
+    <string name="help8">Copie de données d\'un appareil supplémentaire</string>
+    <string name="help9">Transférer les éléments sélectionnés entre des appareils</string>
+    <string name="help10">@string/summary</string>
+    <string name="help11">Partager des éléments sauvegardés sur d\'autres applications</string>
+    <string name="help12">@string/settings</string>
+    <string name="help13">Diagnostics</string>
+    <string name="help14">Nous contacters</string>
+
+    <string name="diagnostic_msg">Cette fonction vous permet d\'envoyer des rapports de diagnostic depuis votre appareil vers le MEEM dans le cas où vous auriez rencontré des problèmes d\'utilisation du câble MEEM et contacté notre assistance technique. Aucune de vos données personnelles ne nous sera envoyée, uniquement des données techniques liées au fonctionnement de votre câble.\n\nLorsque vous appuyez sur le bouton Diagnostic, un e-mail pré-rempli contenant les fichiers de diagnostic s\'affichera à l\'écran et vous pourrez nous l\'envoyer.</string>
+    <string name="diagnostic_button">Envoyer les informations de diagnostic</string>
+
+    <string name="contactus_msg">Écrivez-nous à hello@meemmemory.com\n\nMEEM Memory Ltd.\n\n© 2016 MEEM Memory Ltd. Tous droits réservés.\n\nMEEM et le logo MEEM sont des marques déposées de MEEM Memory Ltd enregistrées en Europe, aux États-Unis et dans les autres pays.\n\nLes autres noms de produits et de compagnies mentionnés ci-inclus peuvent être des marques déposées de leurs compagnies respectives. Les produits tiers sont mentionnés à titre indicatif uniquement, et non pas à titre de recommandation. MEEM se dégage de toute responsabilité concernant les performances ou l\'utilisation de ces produits. Tout accord, entente ou garantie, le cas échéant, concerne directement les vendeurs et les utilisateurs potentiels. Tout a été mis en œuvre pour que les informations présentées dans ce manuel soient précises. MEEM n\'est pas responsable des erreurs d\'impression ou de rédaction.
+</string>
+
+
+    <string name="share_contacts">Share Contacts</string>
+    <string name="share_calendar">Share Calendar</string>
+    <string name="share_photos">Share Photos</string>
+    <string name="share_videos">Share Videos</string>
+    <string name="share_music">Share Music</string>
+    <string name="share_documents">Share Documents</string>
+    <string name="share_messages">Share Messages</string>
+
+    <string name="delete_vault_warning">This will delete all data backed up in the cable. Are you sure?</string>
+
+    <string name="progress_msg">please wait...</string>
+    <string name="no_fw_update">No firmware update available</string>
+    <string name="notification_message">It\'s  %1$d %2$s since your last backup</string>
+    <string name="pause">Pause</string>
+    <string name="play">Play</string>
+
+    <string name="meem_mode_description">View/Copy backup data in MEEM to your desktop</string>
+    <string name="pc_mode_description">MEEM will be able to connect with the PC to access the content</string>
+    <string name="data_cable_mode_description">MEEM will act as a data cable.</string>
+    <string name="visible_100">100% Visible</string>
+    <string name="serianno">Serial No.</string>
+    <string name="whatsNew">Please find the latest update of the MEEM App, which includes the following features.\n\n*100\%% Visible\nYou can see everything you back up: Every contact, every photo, every video, everything….\n\n*Three Devices\nMEEM can back up any three devices on the cable. Phone or tablet.\n\n*Lost Phone/Upgrade?\nRestoring data is easy. MEEM can restore your backed up data to your new Phone with a single swipe\n\n*More Space\nWith MEEM archive mode even if you delete the data from your phone or tablet it’s still on MEEM. If you need more space on your phone or tablet, MEEM can help.\n\n*Platform Neutral\nMEEM can back up and share data from iOS or Android phones and tablets on to the same cable. And it’s all 100\%% visible.\n\n*Share Data\nYour backed up data can be shared by any of the devices you have backed up. Transfer data with a single swipe, from Apple to Android or Android to Apple.  As little or as much as you like.\n\n*PC/Laptops\nEverything can be backed up to a computer for super security.  With MEEM it’s all-useable.  You can move data back and forth via Wi-Fi or by connecting your MEEM cable directly.\n\nFor More information on all these features please visit www.meemmemory.com\nLatest Features, or refer to Help in the MEEM App menu that is available with or without the cable being attached.</string>
+    <string name="whatsnewtitle">What\'s new?</string>
+
+    <string name="meemapp_and_cable">MEEM APP and Cable Help</string>
+    <string name="meem_nw_help">MEEM Network Help</string>
+    <string name="meem_desktop_app">MEEM Desktop app</string>
+    <string name="meem_dc_mode">MEEM data cable mode</string>
+    <string name="meem_nw">MEEM Network</string>
+    <string name="have_an_issue">Have an issue?</string>
+    <string name="your_data">Your data</string>
+    <string name="wat_is_meem_nw">What is the MEEM Network</string>
+    <string name="terminology">Terminology</string>
+    <string name="how_it_works">How it Works</string>
+    <string name="getting_started">Getting Started</string>
+    <string name="using_meem_computing">Using the MEEM Computer Application</string>
+    <string name="platform_supported">Platforms supported</string>
+    <string name="sms_message_music">SMS Messages and Music</string>
+
+    <string name="forgot_password"><u>Forgot PIN?</u></string>
+    <string name="question_one">1) Quel est votre film préféré?</string>
+    <string name="question_two">2) Qui était votre héros d\'enfance?</string>
+    <string name="question_three">3) Quel est le nom de votre premier animal de compagnie?</string>
+
+</resources>

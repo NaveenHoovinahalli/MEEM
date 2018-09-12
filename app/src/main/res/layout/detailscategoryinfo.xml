@@ -1,0 +1,70 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="50dp"
+              android:background="@drawable/selecterforview"
+              android:gravity="center"
+              android:orientation="horizontal"
+              android:padding="10dp"
+              android:weightSum="5">
+
+
+    <com.meem.ui.utils.MeemTextView
+        android:id="@+id/tvCategoryName"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1.75"
+        android:text="Category"
+        android:textColor="@color/gray"/>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="right">
+
+        <com.meem.ui.utils.MeemTextView
+            android:id="@+id/tvMirrorSize"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="right"
+            android:text="--"
+            android:textColor="@color/gray"/>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="right">
+
+        <com.meem.ui.utils.MeemTextView
+            android:id="@+id/tvMirrorPlusSize"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="right"
+            android:text="--"
+            android:textColor="@color/gray"/>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1.25"
+        android:gravity="right">
+
+        <ImageView
+            android:id="@+id/ivArrow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="5dp"
+            android:gravity="right"
+            android:src="@drawable/btn_details_arrow"
+            android:visibility="invisible"/>
+
+    </LinearLayout>
+
+</LinearLayout>

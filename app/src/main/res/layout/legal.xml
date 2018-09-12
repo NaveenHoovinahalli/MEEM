@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="#000000"
+              android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/eula"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/meemBlack87"
+        android:orientation="horizontal"
+        android:padding="5dp">
+
+        <com.meem.ui.utils.MeemTextView
+            android:id="@+id/textview2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:text="@string/eula"
+            android:textColor="@color/meemGray4"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10dp"
+            android:src="@drawable/btn_details_arrow"/>
+
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/meemGray3"/>
+
+    <RelativeLayout
+        android:id="@+id/firmware"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/meemBlack87"
+        android:orientation="horizontal"
+        android:padding="5dp">
+
+        <com.meem.ui.utils.MeemTextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:text="@string/firmware"
+            android:textColor="@color/meemGray4"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10dp"
+            android:src="@drawable/btn_details_arrow"/>
+
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/meemGray3"/>
+
+
+    <RelativeLayout
+        android:id="@+id/warranty"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/meemBlack87"
+        android:orientation="horizontal"
+        android:padding="5dp">
+
+        <com.meem.ui.utils.MeemTextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:text="@string/warranty"
+            android:textColor="@color/meemGray4"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10dp"
+            android:src="@drawable/btn_details_arrow"/>
+
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/meemGray3"/>
+
+</LinearLayout>

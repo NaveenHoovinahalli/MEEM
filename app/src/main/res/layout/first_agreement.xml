@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:id="@+id/first_agreement_scrollview"
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:alpha="0.75"
+            android:fillViewport="true"
+            android:scrollbars="vertical">
+
+    <LinearLayout
+        android:id="@+id/first_agreement_linearlayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/black"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/first_agreement_title_textview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dp"
+            android:gravity="center"
+            android:text="Congratulations\non buying your MEEM!"
+            android:textColor="@color/meemWhite"
+            android:textSize="17dp"/>
+
+        <com.meem.ui.utils.JustifiedTextView
+            android:id="@+id/first_agreement_textview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:background="@android:color/transparent"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:scrollHorizontally="false"
+            android:textSize="17dp"/>
+
+        <TextView
+            android:id="@+id/first_agreement_ok_textview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:paddingBottom="5dp"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:paddingTop="5dp"
+            android:text="OK"
+            android:textColor="#A3A3A3"
+            android:textSize="17dp"/>
+    </LinearLayout>
+
+</ScrollView>

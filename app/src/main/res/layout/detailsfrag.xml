@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#000000"
+                android:gravity="center">
+
+    <com.meem.ui.utils.MeemTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="No data"
+        android:textColor="@color/meemGray2"/>
+
+
+    <LinearLayout
+        android:id="@+id/llMain"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:background="#000000"
+        android:clickable="false"
+        android:orientation="vertical">
+
+        <include
+            android:id="@+id/customTab"
+            layout="@layout/customtabfordetails"
+            android:minHeight="?attr/actionBarSize"/>
+
+        <com.meem.ui.utils.MeemTextView
+            android:id="@+id/tvSize"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:background="@color/meemBlack90"
+            android:gravity="center"
+            android:padding="5dp"
+            android:text="Total Size:8.22GB"
+            android:textColor="@color/gray"
+            android:textStyle="bold"/>
+
+        <View style="@style/line"/>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:padding="10dp"
+            android:weightSum="5">
+
+            <com.meem.ui.utils.MeemTextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.75"
+                android:text=""
+                android:textColor="@color/gray"/>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="right">
+
+                <com.meem.ui.utils.MeemTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:maxLines="1"
+                    android:text="@string/sync"
+                    android:textColor="@color/meemBlack50"/>
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="right">
+
+                <com.meem.ui.utils.MeemTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="right"
+                    android:maxLines="1"
+                    android:text="@string/archive"
+                    android:textColor="@color/meemBlack50"/>
+
+            </LinearLayout>
+
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.25"/>
+        </LinearLayout>
+
+        <View style="@style/line"/>
+
+
+        <ScrollView
+            android:id="@+id/catScroll"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="55dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <include
+                    android:id="@+id/llContacts"
+                    layout="@layout/detailscategoryinfo"/>
+
+                <include
+                    android:id="@+id/llcontactssetting"
+                    layout="@layout/detailssettinggreemmeemsegment"/>
+
+                <include
+                    android:id="@+id/llcontactssettingblue"
+                    layout="@layout/detailssettingbluemeem"/>
+
+                <View style="@style/linewithmargin"/>
+
+                <include
+                    android:id="@+id/llMessages"
+                    layout="@layout/detailscategoryinfo"/>
+
+                <include
+                    android:id="@+id/llmessagessetting"
+                    layout="@layout/detailssettinggreemmeemsegment"/>
+
+                <include
+                    android:id="@+id/llmessagessettingblue"
+                    layout="@layout/detailssettingbluemeem"/>
+
+                <View style="@style/linewithmargin"/>
+
+
+                <include
+                    android:id="@+id/llCalender"
+                    layout="@layout/detailscategoryinfo"/>
+
+                <include
+                    android:id="@+id/llcalendersetting"
+                    layout="@layout/detailssettinggreemmeemsegment"/>
+
+                <include
+                    android:id="@+id/llcalendersettingblue"
+                    layout="@layout/detailssettingbluemeem"/>
+
+                <View style="@style/linewithmargin"/>
+
+
+                <include
+                    android:id="@+id/llPhotos"
+                    layout="@layout/detailscategoryinfo"/>
+
+                <include
+                    android:id="@+id/llphotossetting"
+                    layout="@layout/detailssettinggreemmeemsegment"/>
+
+                <include
+                    android:id="@+id/llphotossettingblue"
+                    layout="@layout/detailssettingbluemeem"/>
+
+                <View style="@style/linewithmargin"/>
+
+                <include
+                    android:id="@+id/llVideos"
+                    layout="@layout/detailscategoryinfo"/>
+
+                <include
+                    android:id="@+id/llvideossetting"
+                    layout="@layout/detailssettinggreemmeemsegment"/>
+
+                <include
+                    android:id="@+id/llvideossettingblue"
+                    layout="@layout/detailssettingbluemeem"/>
+
+                <View style="@style/linewithmargin"/>
+
+
+                <include
+                    android:id="@+id/llMusic"
+                    layout="@layout/detailscategoryinfo"/>
+
+                <include
+                    android:id="@+id/llmusicsetting"
+                    layout="@layout/detailssettinggreemmeemsegment"/>
+
+                <include
+                    android:id="@+id/llmusicsettingblue"
+                    layout="@layout/detailssettingbluemeem"/>
+
+                <View style="@style/linewithmargin"/>
+
+
+                <include
+                    android:id="@+id/llDocuments"
+                    layout="@layout/detailscategoryinfo"/>
+
+                <include
+                    android:id="@+id/lldocumentssetting"
+                    layout="@layout/detailssettinggreemmeemsegment"/>
+
+                <include
+                    android:id="@+id/lldocumentssettingblue"
+                    layout="@layout/detailssettingbluemeem"/>
+
+                <View style="@style/linewithmargin"/>
+
+
+            </LinearLayout>
+        </ScrollView>
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/deleteVault"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@android:color/holo_red_light"
+        android:orientation="horizontal"
+        android:padding="5dp"
+        android:visibility="visible">
+
+        <com.meem.ui.utils.MeemTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/delete_backup_data"/>
+    </LinearLayout>
+
+    <include
+        android:id="@+id/lProbressBar"
+        style="@style/progressBarwithbutton"
+        layout="@layout/progressbarwithmessage"
+        android:visibility="gone"/>
+
+
+</RelativeLayout>
